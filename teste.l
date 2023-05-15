@@ -7,11 +7,11 @@
 
 %}
 
-RW (array|boolean|else|false|function|if|integer|print|return|true|void|while)
+RW ("array"|"boolean"|"else"|"false"|"function"|"if"|"integer"|"print"|"return"|"true"|"void"|"while")
 
-SYM (+|-|*|/|%|!|<|>|=|:|;|,|(|)|[|]|{|})
+SYM ("+"|"-"|"*"|"/"|"%"|"!"|"<"|">"|"="|":"|";"|","|"("|")"|"["|"]"|"{"|"}")
 
-SYMC (<=|>=|==|!=|&&|||)
+SYMC ("<="|">="|"=="|"!="|"&&"|"||")
 
 %%
 
